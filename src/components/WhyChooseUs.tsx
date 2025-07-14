@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            💪 Why Choose Us?
+            Why Choose Us?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Experience the difference with our premium gym flooring solutions
@@ -48,10 +48,7 @@ const WhyChooseUs = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="mb-6 flex justify-center">
-                <div className="relative">
-                  <div className="text-4xl mb-2">{feature.accent}</div>
-                  <feature.icon className="h-8 w-8 text-primary mx-auto group-hover:scale-110 transition-transform duration-300" />
-                </div>
+                <feature.icon className="h-12 w-12 text-primary mx-auto group-hover:scale-110 transition-transform duration-300" />
               </div>
               
               <h3 className="text-xl font-bold mb-4 text-foreground group-hover:text-primary transition-colors">

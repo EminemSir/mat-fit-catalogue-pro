@@ -18,12 +18,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div className="flex flex-col">
             <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
               Pmats
             </span>
-            <span className="text-sm text-muted-foreground hidden sm:block">
-              PULICKAL & AJ
+            <span className="text-xs text-muted-foreground -mt-1">
+              A Pulickal & AJ Concern
             </span>
           </div>
 

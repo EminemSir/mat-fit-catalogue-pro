@@ -32,7 +32,7 @@ const Gallery = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            📸 Gallery
+            Gallery
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Explore our complete range of premium gym and sports flooring solutions
@@ -53,15 +53,13 @@ const Gallery = () => {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <h3 className="text-lg font-bold text-foreground mb-2">
-                    {product.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {product.description}
-                  </p>
-                </div>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background/95 to-transparent p-4">
+                <h3 className="text-lg font-bold text-foreground mb-2">
+                  {product.title}
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  {product.description}
+                </p>
               </div>
             </div>
           ))}

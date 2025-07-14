@@ -11,7 +11,7 @@ const Footer = () => {
               <h3 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
                 Pmats
               </h3>
-              <p className="text-muted-foreground">A PULICKAL & AJ CONCERN</p>
+              <p className="text-muted-foreground">A Pulickal & AJ Concern</p>
             </div>
             <p className="text-muted-foreground leading-relaxed">
               Premium rubber-based gym and multi-sports mats for home gyms, commercial fitness centres, athletic facilities, and play schools.
@@ -38,9 +38,14 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-foreground">Contact Information</h4>
             <div className="space-y-3">
-              <div className="flex items-center gap-3">
-                <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
-                <span className="text-muted-foreground">[Your City or Region]</span>
+              <div className="flex items-start gap-3">
+                <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-1" />
+                <div className="text-muted-foreground">
+                  <div className="font-medium">Pmats</div>
+                  <div>Pulickal & AJ Flooring</div>
+                  <div>Chingavanam P.O, Kottayam</div>
+                  <div>Kerala - 686531</div>
+                </div>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
@@ -48,7 +53,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
-                <span className="text-muted-foreground">[Your Number]</span>
+                <span className="text-muted-foreground">+917012351774</span>
               </div>
             </div>
           </div>
