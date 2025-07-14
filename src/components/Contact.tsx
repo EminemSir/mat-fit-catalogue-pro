@@ -32,7 +32,7 @@ const Contact = () => {
                   <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-foreground">Location</p>
-                    <p className="text-muted-foreground">[Your City or Region]</p>
+                    <p className="text-muted-foreground">Pulickal & AJ Flooring, Chingavanam P.O, Kottayam, Kerala - 686531</p>
                   </div>
                 </div>
                 
@@ -48,7 +48,7 @@ const Contact = () => {
                   <Phone className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-foreground">Phone</p>
-                    <p className="text-muted-foreground">[Your Number]</p>
+                    <p className="text-muted-foreground">+917012351774</p>
                   </div>
                 </div>
               </CardContent>
